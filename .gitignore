@@ -1,0 +1,19 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# エディタ
+.vscode/
+.idea/
+*.swp
+*~
+
+# ログ・一時ファイル
+*.log
+.tmp/
+
+# 環境変数（公開事故防止）
+.env
+.env.*

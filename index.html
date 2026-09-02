@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NOSTALJII 2007</title>
+<meta name="description" content="忘れようとしても、思い出せない。 ― 短編ミステリーADV">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="cabinet">
+  <div id="screen">
+
+    <!-- ===== 舞台 ===== -->
+    <div id="stage">
+      <div id="bg"></div>
+      <div id="smoke"></div>
+      <div id="portrait"></div>
+      <div id="scene-card"><div class="sc-no"></div><div class="sc-ti"></div></div>
+    </div>
+
+    <!-- ===== I-CAS（心の声） ===== -->
+    <div id="icas">
+      <div class="icas-head">
+        <span class="icas-title">I-CAS</span>
+        <span class="icas-led"></span>
+      </div>
+      <div class="icas-body"></div>
+      <div class="icas-foot">INNER CHANNEL / ASSOC.SUB</div>
+    </div>
+
+    <!-- ===== 会話ウィンドウ ===== -->
+    <div id="msgwin">
+      <div id="namebox"></div>
+      <div id="msgtext"></div>
+      <div id="cursor">▼</div>
+    </div>
+
+    <!-- ===== 選択肢 ===== -->
+    <div id="choices"></div>
+
+    <!-- ===== メニュー ===== -->
+    <div id="menu">
+      <button id="btn-sound" type="button" title="音">♪ ON</button>
+      <button id="btn-title" type="button" title="タイトルへ">TITLE</button>
+    </div>
+
+    <!-- ===== オーバーレイ類 ===== -->
+    <div id="fade"></div>
+    <div id="flash"></div>
+    <div id="bigtext"><span></span></div>
+
+    <!-- ===== タイトル画面 ===== -->
+    <div id="title-screen">
+      <div class="t-ship"></div>
+      <div class="t-inner">
+        <h1>NOSTALJII<span class="t-year">2007</span></h1>
+        <p class="t-copy">忘れようとしても、思い出せない。</p>
+        <div class="t-menu">
+          <button id="btn-start" type="button">START</button>
+          <button id="btn-continue" type="button" disabled>CONTINUE</button>
+        </div>
+        <p class="t-note">クリック / タップ / スペースキー で会話を送る</p>
+        <p class="t-credit">A PARODY ADVENTURE &nbsp;/&nbsp; NO REAL MEMORY WAS HARMED</p>
+      </div>
+    </div>
+
+    <!-- ===== 画面効果 ===== -->
+    <canvas id="noise"></canvas>
+    <div id="scanlines"></div>
+    <div id="vignette"></div>
+  </div>
+</div>
+
+<script src="story.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
